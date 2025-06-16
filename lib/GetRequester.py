@@ -39,6 +39,7 @@ class GetRequester:
 
         return person_info
         # return [elem for elem in json.loads(self.get_response_body())]
+        # return json.loads(self.get_response_body())
 
 
 requester = GetRequester(
